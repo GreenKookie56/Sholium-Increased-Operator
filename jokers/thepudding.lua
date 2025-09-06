@@ -80,7 +80,7 @@ end)()) then
                 local created_consumable = true
                 G.E_MANAGER:add_event(Event({
                     func = function()
-                        SMODS.add_card{set = 'Spectral', key = 'c_sholium_sholio', edition = 'e_negative', key_append = 'joker_forge_spectral'}
+                        SMODS.add_card{set = 'Spectral', key = 'c_sholio_sholium', edition = 'e_negative', key_append = 'joker_forge_spectral'}
                         return true
                     end
                 }))
