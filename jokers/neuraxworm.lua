@@ -27,7 +27,7 @@ SMODS.Joker{ --Neurax worm
         h = 95 * 1
     },
     cost = 30,
-    rarity = "sholium_peculiar",
+    rarity = "sholio_peculiar",
     blueprint_compat = true,
     demicoloncompat = true,
     eternal_compat = true,
