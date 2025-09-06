@@ -13,8 +13,8 @@ SMODS.Joker{ --Flash
         ['text'] = {
             [1] = 'Create a {C:dark_edition}Negative{} {C:attention}Flash Card{}',
             [2] = 'when {C:green}shop{} is {C:attention}rerolled{}',
-            [3] = 'Each {C:attention}Flash Card{} gives {X:red,C:white}^#1#{} Mult',
-            [4] = 'increase {X:red,C:white}^Mult{} value by {X:red,C:white}2{}',
+            [3] = 'Each {C:attention}Flash Card{} gives {X:legendary,C:white}^#1#{} Mult',
+            [4] = 'increase {X:legendary,C:white}^Mult{} value by {X:red,C:white}2{}',
             [5] = 'when shop is rerolled'
         },
         ['unlock'] = {
