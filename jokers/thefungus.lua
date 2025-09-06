@@ -11,7 +11,7 @@ SMODS.Joker{ --The Fungus
         ['name'] = 'The Fungus',
         ['text'] = {
             [1] = 'Destroy a random {C:attention}Joker{} when {C:attention}Blind{} is selected',
-            [2] = 'and add the Joker\'s {C:attention}sell value{} to {X:planet,C:white}^Chips{}',
+            [2] = 'and add the Joker\'s {C:attention}sell value{} to {X:planet,C:white}^^Chips{}',
             [3] = '(Currently {X:planet,C:white}^^#1#{} Chips)',
             [4] = '{C:inactive}Art by 1.2m^2 Fungus Room{}'
         },
