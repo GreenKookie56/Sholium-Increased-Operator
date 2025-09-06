@@ -1,3 +1,5 @@
+if Talisman then
+
 SMODS.Joker{ --Flash
     key = "flash",
     config = {
@@ -11,8 +13,8 @@ SMODS.Joker{ --Flash
         ['text'] = {
             [1] = 'Create a {C:dark_edition}Negative{} {C:attention}Flash Card{}',
             [2] = 'when {C:green}shop{} is {C:attention}rerolled{}',
-            [3] = 'Each {C:attention}Flash Card{} gives {X:red,C:white}X#1#{} Mult',
-            [4] = 'increase {X:red,C:white}XMult{} value by {X:red,C:white}2{}',
+            [3] = 'Each {C:attention}Flash Card{} gives {X:red,C:white}^#1#{} Mult',
+            [4] = 'increase {X:red,C:white}^Mult{} value by {X:red,C:white}2{}',
             [5] = 'when shop is rerolled'
         },
         ['unlock'] = {
@@ -89,9 +91,11 @@ SMODS.Joker{ --Flash
         return context.other_joker.config.center.key == "j_flash"
     end)() then
                 return {
-                    Xmult = card.ability.extra.xmult
+                    eemult = card.ability.extra.xmult
                 }
             end
         end
     end
 }
+
+end
