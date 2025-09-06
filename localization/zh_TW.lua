@@ -110,9 +110,9 @@ return {
 			j_sholio_buchi = {
 				name = "斑斑",
 				text = {
-					"{X:legendary,C:white}^#1#{}倍率",
+					"{X:legendary,C:white}^^#1#{}倍率",
 					"出牌時此數值減少{X:legendary,C:white}#3#{}",
-                    "減少至{X:legendary,C:white}0{}以下時永久設為{X:legendary,C:white}^3.57{}倍率",
+                    "減少至{X:legendary,C:white}0{}以下時永久設為{X:legendary,C:white}^^3.57{}倍率",
 				},
 			},
 			j_sholio_carrierflagship = {
