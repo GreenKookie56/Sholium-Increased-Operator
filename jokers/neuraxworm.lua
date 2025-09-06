@@ -12,7 +12,7 @@ SMODS.Joker{ --Neurax worm
         ['name'] = 'Neurax worm',
         ['text'] = {
             [1] = 'Each card held in hand has a',
-            [2] = '{C:green}#2# in #3#{} chance to {X:legendary,C:white}^#1#{} Mult'
+            [2] = '{C:green}#2# in #3#{} chance to {X:legendary,C:white}^^#1#{} Mult'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
@@ -57,13 +57,13 @@ SMODS.Joker{ --Neurax worm
         if context.individual and context.cardarea == G.hand and not context.end_of_round then
             if true then
                 if SMODS.pseudorandom_probability(card, 'group_0_ea22710b', 1, card.ability.extra.odds, 'j_sholium_neuraxworm', false) then
-              SMODS.calculate_effect({e_mult = card.ability.extra.mult}, card)
+              SMODS.calculate_effect({ee_mult = card.ability.extra.mult}, card)
           end
             end
         end
         if context.forcetrigger then
             return {
-                e_mult = card.ability.extra.mult
+                ee_mult = card.ability.extra.mult
             }
         end
     end
