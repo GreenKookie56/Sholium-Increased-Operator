@@ -91,7 +91,7 @@ SMODS.Joker{ --Flash
         return context.other_joker.config.center.key == "j_flash"
     end)() then
                 return {
-                    eemult = card.ability.extra.xmult
+                    emult = card.ability.extra.xmult
                 }
             end
         end
