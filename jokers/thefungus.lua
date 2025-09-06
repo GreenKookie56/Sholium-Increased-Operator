@@ -12,7 +12,7 @@ SMODS.Joker{ --The Fungus
         ['text'] = {
             [1] = 'Destroy a random {C:attention}Joker{} when {C:attention}Blind{} is selected',
             [2] = 'and add the Joker\'s {C:attention}sell value{} to {X:planet,C:white}^Chips{}',
-            [3] = '(Currently {X:planet,C:white}^#1#{} Chips)',
+            [3] = '(Currently {X:planet,C:white}^^#1#{} Chips)',
             [4] = '{C:inactive}Art by 1.2m^2 Fungus Room{}'
         },
         ['unlock'] = {
@@ -80,7 +80,7 @@ SMODS.Joker{ --The Fungus
         end
         if context.cardarea == G.jokers and context.joker_main or context.forcetrigger then
                 return {
-                    e_chips = card.ability.extra.chips
+                    ee_chips = card.ability.extra.chips
                 }
         end
     end
