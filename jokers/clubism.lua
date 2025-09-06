@@ -1,3 +1,5 @@
+If Talisman then
+
 SMODS.Joker{ --Clubism
     key = "clubism",
     config = {
@@ -9,8 +11,8 @@ SMODS.Joker{ --Clubism
     loc_txt = {
         ['name'] = 'Clubism',
         ['text'] = {
-            [1] = 'Each played {C:clubs}Clubs{} gives {X:red,C:white}X#1#{} Mult',
-            [2] = 'and increase {X:red,C:white}XMult{} value by {X:red,C:white}#2#{}',
+            [1] = 'Each played {C:clubs}Clubs{} gives {X:red,C:white}^#1#{} Mult',
+            [2] = 'and increase {X:red,C:white}^Mult{} value by {X:red,C:white}#2#{}',
             [3] = 'when scored'
         },
         ['unlock'] = {
@@ -53,7 +55,7 @@ SMODS.Joker{ --Clubism
                 local mult_value = card.ability.extra.mult
                 card.ability.extra.mult = (card.ability.extra.mult) + card.ability.extra.mod
                 return {
-                    Xmult = mult_value
+                    e_mult = mult_value
                 }
             end
         end
@@ -61,8 +63,10 @@ SMODS.Joker{ --Clubism
             local mult_value = card.ability.extra.mult
             card.ability.extra.mult = (card.ability.extra.mult) + card.ability.extra.mod
             return {
-                Xmult = mult_value
+                e_mult = mult_value
             }
         end
     end
 }
+
+end
