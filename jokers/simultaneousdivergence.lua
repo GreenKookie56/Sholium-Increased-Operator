@@ -16,7 +16,7 @@ SMODS.Joker{ --Simultaneous Divergence
             [3] = 'scoring {C:clubs}Club{} card',
             [4] = 'and a scoring card of',
             [5] = 'any other suit',
-            [6] = '{C:inactive}(Currently{} {X:legendary,C:white}^#1#{} {C:inactive}Mult){}'
+            [6] = '{C:inactive}(Currently{} {X:legendary,C:white}^^#1#{} {C:inactive}Mult){}'
         },
         ['unlock'] = {
             [1] = ''
@@ -55,7 +55,7 @@ SMODS.Joker{ --Simultaneous Divergence
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
                 return {
-                    e_mult = card.ability.extra.mult
+                    ee_mult = card.ability.extra.mult
                 }
         end
         if context.before and context.cardarea == G.jokers  and not context.blueprint then
@@ -108,7 +108,7 @@ end)())) then
             local mult_value = card.ability.extra.mult
             card.ability.extra.mult = (card.ability.extra.mult) + card.ability.extra.scale
             return {
-                emult = mult_value
+                eemult = mult_value
             }
         end
     end
