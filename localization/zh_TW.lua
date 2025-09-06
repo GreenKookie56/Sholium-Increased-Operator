@@ -143,8 +143,8 @@ return {
 			j_sholio_clubism = {
 				name = "藍月光",
 				text = {
-					"打出的{C:clubs}梅花{}被計分時，{X:red,C:white}X#1#{}倍率",
-					"然後將{X:red,C:white}X倍率{}數值提升{X:red,C:white}+#2#{}",
+					"打出的{C:clubs}梅花{}被計分時，{X:red,C:white}^#1#{}倍率",
+					"然後將{X:legendary,C:white}^倍率{}數值提升{X:red,C:white}+#2#{}",
 				},
 			},
 			j_sholio_corvus = {
@@ -164,10 +164,10 @@ return {
 			j_sholio_flash = {
 				name = "閃現",
 				text = {
-					"每張閃卡提供{X:red,C:white}^#1#{}倍率",
+					"每張閃卡提供{X:legendary,C:white}^#1#{}倍率",
 					"當{C:green}商店{}被重骰時，",
 					"產生一張{C:dark_edition}負片{}{C:attention}閃卡{}",
-					"然後將{X:red,C:white}^倍率{}數值提升{X:red,C:white}+2{}",
+					"然後將{X:legendary,C:white}^倍率{}數值提升{X:red,C:white}+2{}",
 				},
 			},
 			j_sholio_freedartmonkey = {
