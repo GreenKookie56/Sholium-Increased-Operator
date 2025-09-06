@@ -14,10 +14,10 @@ SMODS.Joker{ --Buchi
     loc_txt = {
         ['name'] = 'Buchi',
         ['text'] = {
-            [1] = '{X:legendary,C:white}^#1#{} Mult',
+            [1] = '{X:legendary,C:white}^^#1#{} Mult',
             [2] = 'Decrease by {X:legendary,C:white}#3#{}',
             [3] = 'when a hand is played',
-            [4] = 'Permanently sets to {X:legendary,C:white}^3.57{} Mult',
+            [4] = 'Permanently sets to {X:legendary,C:white}^^3.57{} Mult',
             [5] = 'once this reaches {X:legendary,C:white}0{}'
         },
         ['unlock'] = {
@@ -73,7 +73,7 @@ SMODS.Joker{ --Buchi
         end
         if context.cardarea == G.jokers and context.joker_main then
                 return {
-                    e_mult = card.ability.extra.mult
+                    ee_mult = card.ability.extra.mult
                 }
         end
         if context.forcetrigger and card.ability.extra.active == 0 then
@@ -93,7 +93,7 @@ SMODS.Joker{ --Buchi
         end
         if context.forcetrigger and card.ability.extra.active ~= 0 then
                 return {
-                    e_mult = card.ability.extra.mult
+                    ee_mult = card.ability.extra.mult
                 }
         end
     end
