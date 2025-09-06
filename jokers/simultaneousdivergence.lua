@@ -11,7 +11,7 @@ SMODS.Joker{ --Simultaneous Divergence
     loc_txt = {
         ['name'] = 'Simultaneous Divergence',
         ['text'] = {
-            [1] = 'This Joker gains {X:legendary,C:white}^#2#{} Mult',
+            [1] = 'This Joker gains {X:legendary,C:white}^^#2#{} Mult',
             [2] = 'if played hand has a',
             [3] = 'scoring {C:clubs}Club{} card',
             [4] = 'and a scoring card of',
