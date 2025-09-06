@@ -12,7 +12,7 @@ SMODS.Joker{ --Clubism
         ['name'] = 'Clubism',
         ['text'] = {
             [1] = 'Each played {C:clubs}Clubs{} gives {X:legendary,C:white}^#1#{} Mult',
-            [2] = 'and increase {X:red,C:white}^Mult{} value by {X:legendary,C:white}#2#{}',
+            [2] = 'and increase {X:legendary,C:white}^Mult{} value by {X:legendary,C:white}#2#{}',
             [3] = 'when scored'
         },
         ['unlock'] = {
