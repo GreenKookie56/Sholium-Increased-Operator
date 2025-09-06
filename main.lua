@@ -58,17 +58,3 @@ end
 load_rarities_file()
 load_jokers_folder()
 load_consumables_folder()
-SMODS.ObjectType({
-    key = "sholium_food",
-    cards = {
-        ["j_gros_michel"] = true,
-        ["j_egg"] = true,
-        ["j_ice_cream"] = true,
-        ["j_cavendish"] = true,
-        ["j_turtle_bean"] = true,
-        ["j_diet_cola"] = true,
-        ["j_popcorn"] = true,
-        ["j_ramen"] = true,
-        ["j_selzer"] = true
-    },
-})
