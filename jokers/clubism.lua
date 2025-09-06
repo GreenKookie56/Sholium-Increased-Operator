@@ -1,4 +1,4 @@
-If Talisman then
+if Talisman then
 
 SMODS.Joker{ --Clubism
     key = "clubism",
