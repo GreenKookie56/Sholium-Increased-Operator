@@ -39,14 +39,14 @@ SMODS.Joker{ --Bloonchipper
     atlas = 'CustomJokers',
 
     loc_vars = function(self, info_queue, card)
-        local new_numerator, new_denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'j_sholium_bloonchipper') 
+        local new_numerator, new_denominator = SMODS.get_probability_vars(card, 1, card.ability.extra.odds, 'j_sholio_bloonchipper') 
         return {vars = {card.ability.extra.discard, card.ability.extra.discardmod, card.ability.extra.round, new_numerator, new_denominator}}
     end,
 
     calculate = function(self, card, context)
         if context.end_of_round and context.main_eval and G.GAME.blind.boss  then
             if true then
-                if SMODS.pseudorandom_probability(card, 'group_0_0bf57d31', 1, card.ability.extra.odds, 'j_sholium_bloonchipper', false) then
+                if SMODS.pseudorandom_probability(card, 'group_0_0bf57d31', 1, card.ability.extra.odds, 'j_sholio_bloonchipper', false) then
               SMODS.calculate_effect({func = function()
                     card.ability.extra.discard = (card.ability.extra.discard) + card.ability.extra.discardmod
                     return true
