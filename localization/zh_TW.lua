@@ -317,11 +317,33 @@ return {
 					"回合結束時{C:dark_edition}+1{}小丑牌欄位",
  				},
 			},
-			j_sholio_purpleseal = {
+			j_sholio_sealpurple = {
 				name = "紫色隱者",
 				text = {
 					"{C:attention}-1{}手牌大小",
 					"棄牌時隨機產生一張{C:tarot}塔羅牌{}",
+				},
+			},
+			j_sholio_sealred = {
+				name = "紅色魔術師",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"重新觸發所有打出的牌",
+				},
+			},
+			j_sholio_sealgold = {
+				name = "白金之星",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"出牌時獲得{C:gold}$3{}",
+				},
+			},
+			j_sholio_sealblue = {
+				name = "綠色法皇",
+				text = {
+					"{C:attention}-1{}手牌大小",
+					"回合結束時產生上個{C:attention}牌型{}的{C:planet}星球牌{}",
+					"{C:inactive}不是，這不是綠色的吧...{}",
 				},
 			},
 			j_sholio_rosalia = {
